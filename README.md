@@ -1,6 +1,6 @@
 🌤️ SkyCast Weather Dashboard
 
-SkyCast Weather Dashboard is a simple, responsive web application built using HTML, CSS, and JavaScript. It allows users to fetch real-time weather details for any city and also supports automatic current-location weather using the Geolocation API. The app retrieves temperature, humidity, pressure, and weather descriptions using the OpenWeatherMap API and displays them in a clean, user-friendly interface.
+SkyCast Weather Dashboard is a simple, responsive web application built using HTML, CSS, and JavaScript. It allows users to fetch real time weather details for any city and also supports automatic current location weather using the Geolocation API. The app retrieves temperature, humidity, pressure, and weather descriptions using the OpenWeatherMap API and displays them in a clean, user friendly interface.
 
 📁 Project Structure
 
@@ -16,8 +16,8 @@ index.css
 
 index.js
 - Fetches weather data from the OpenWeatherMap API.  
-- Uses `async/await` for API calls.  
-- Gets current location using `navigator.geolocation`.  
+- Uses async/await for API calls.  
+- Gets current location using navigator.geolocation.  
 - Dynamically updates the DOM with the weather details.
 
 ⚙️ How the App Works
@@ -25,12 +25,12 @@ index.js
 1️⃣ City Weather Search
 - User enters a city name.
 - The app builds an API request URL with the city parameter.
-- Fetches weather data using `fetch()`.
+- Fetches weather data using fetch().
 - Displays:
   - Temperature  
   - Humidity  
   - Pressure  
-  - Weather condition (in text)
+  - Weather condition 
 
 2️⃣ Current Location Weather
 - On page load, the app asks for location access.
@@ -52,13 +52,13 @@ index.js
 🎨 Design Overview (UI/UX)
 
 - Clean and minimal interface with a centered layout.
-- Blue-toned UI for a weather-themed appearance.
+- Blue-toned UI for a weather themed appearance.
 - Highlighted headings for better visibility.
 - Large inputs and buttons for easy interaction.
 - Responsive design ensures compatibility with laptops and mobiles.
 
  Key Design Elements:
-- Center-aligned container
+- Center aligned container
 - Readable font sizes
 - Soft color contrast for text
 - Clear hierarchy for information display
@@ -66,7 +66,7 @@ index.js
 ▶️ How to Run the Project
 
 1. Download or clone the repository.
-2. Open the `index.js` file and add your OpenWeatherMap API key: ```js
+2. Open the index.js file and add your OpenWeatherMap API key: ```js
 const API_KEY = "YOUR_API_KEY";
 3. Save the file.
 4. Open index.html in any browser.
