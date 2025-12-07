@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins,sans-serif;
+    text-align: center;
+}
+.container{
+    background-color: rgb(36, 33, 194);
+padding: 50px;
+margin: 80px 180px;
+border-color: gray;
+border-style: solid;
+border-width: 3px;
+}
+.heading{
+    color:rgb(235, 214, 25) ;
+}
+input[type="text"]{
+    width: 180px;
+    height: 3rem ;
+    margin-top: 3px;
+    border-radius: 5px;
+    border: 2px;
+    border-style: solid;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+input[type="button"]{
+    background-color: black;
+    height: 3rem;
+    width: 80px;
+    color: antiquewhite;
+    border-radius: 8px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.result{
+    color: bisque;
+}
+#weather-type{
+    color: rgb(3, 3, 3);
+}
+      
